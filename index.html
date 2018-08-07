@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>slots</title>
+  </head>
+  <body>
+
+    <div id="app">
+      <app>
+
+        <how-to>
+          <template slot="jsonvm">
+            {
+              "byLabel": "Written by",
+              "author": "Thomas Hjorth, thomas.hjorth@valtech.com",
+              "mainHeadline": "VueJS components and CMS",
+              "vueFileName": "HowTo.vue",
+              "viewFileName": "HowTo.cshtml"
+            }
+          </template>
+
+          <link-list>
+            <template slot="jsonvm">
+              {
+                "headline": "Helpful links",
+                "links": [
+                  {
+                    "href": "https://vuejs.org/v2/guide/components-slots.html",
+                    "text": "VueJS slots documentation"
+                  },
+                  {
+                    "href": "https://vuejs.org/v2/guide/components-props.html",
+                    "text": "VueJS props documentation"
+                  }
+                ]
+              }
+            </template>
+          </link-list>
+        </how-to>
+
+      </app>
+    </div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
