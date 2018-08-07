@@ -1,6 +1,6 @@
 # slots
 
-> A Vue.js project
+> A Vue.js project that demonstrates how to build Vue components that can handle arbitrary nested components as is often possible in block / component based CMSs.
 
 ## Build Setup
 
